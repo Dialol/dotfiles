@@ -1,0 +1,584 @@
+#youboost-ad-premium-banner-root {
+  margin: 0 16px;
+  width: calc(100% - 32px);
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+}
+#youboost-ad-premium-banner-root .spacer {
+    width: 25px;
+  }
+#youboost-ad-premium-banner-root .ad-premium-banner {
+    font-family: Montserrat, sans-serif;
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 100%;
+    background: linear-gradient(255.96deg, #003a7e 0%, #212e3c 99.93%);
+    border-radius: 30px;
+    position: relative;
+    color: #fff;
+    margin-block: 20px;
+  }
+:is(#youboost-ad-premium-banner-root .ad-premium-banner) .free-trial {
+      background: linear-gradient(255.96deg, #003a7e 0%, #212e3c 99.93%);
+      position: relative;
+      width: 100%;
+      height: 100%;
+      max-width: 650px;
+      margin: 0 auto;
+    }
+:is(:is(#youboost-ad-premium-banner-root .ad-premium-banner) .free-trial) .free-trial-content {
+        width: 100%;
+        max-width: 400px;
+        overflow: visible;
+      }
+:is(:is(:is(#youboost-ad-premium-banner-root .ad-premium-banner) .free-trial) .free-trial-content) .free-trial-title {
+          font-weight: 800;
+          font-size: 14px;
+          line-height: 24px;
+          letter-spacing: 0.4px;
+          height: 50px;
+          display: flex;
+          align-items: center;
+          gap: 16px;
+          padding-top: 20px;
+        }
+:is(:is(:is(:is(#youboost-ad-premium-banner-root .ad-premium-banner) .free-trial) .free-trial-content) .free-trial-title) .free-trial-title-icon {
+            width: 50px;
+            height: 50px;
+          }
+:is(:is(:is(#youboost-ad-premium-banner-root .ad-premium-banner) .free-trial) .free-trial-content) .free-trial-description {
+          display: flex;
+          gap: 30px;
+          flex-wrap: wrap;
+        }
+:is(:is(:is(:is(#youboost-ad-premium-banner-root .ad-premium-banner) .free-trial) .free-trial-content) .free-trial-description) .free-trial-description-block {
+            margin-top: 20px;
+            margin-bottom: 30px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+          }
+:is(:is(:is(:is(:is(#youboost-ad-premium-banner-root .ad-premium-banner) .free-trial) .free-trial-content) .free-trial-description) .free-trial-description-block) span {
+              display: flex;
+              gap: 10px;
+              align-items: baseline;
+              font-weight: 400;
+              font-size: 14px;
+              line-height: 17px;
+            }
+:is(:is(:is(:is(:is(:is(#youboost-ad-premium-banner-root .ad-premium-banner) .free-trial) .free-trial-content) .free-trial-description) .free-trial-description-block) span)::before {
+                display: block;
+                content: '';
+                background-color: #f00;
+                border-radius: 50%;
+                width: 8px;
+                height: 8px;
+              }
+:is(:is(:is(#youboost-ad-premium-banner-root .ad-premium-banner) .free-trial) .free-trial-content) .free-trial-price {
+          font-size: 10px;
+          letter-spacing: 0.4px;
+          line-height: 10px;
+          text-align: center;
+          font-weight: 400;
+          margin-top: 10px;
+          opacity: 0.8;
+        }
+:is(:is(#youboost-ad-premium-banner-root .ad-premium-banner) .free-trial) .free-trial-image {
+        position: absolute;
+        width: 187px;
+        height: 240px;
+        right: 20px;
+        bottom: 0;
+      }
+:is(#youboost-ad-premium-banner-root .ad-premium-banner) .premium {
+      background: linear-gradient(255.96deg, #003a7e 0%, #212e3c 99.93%);
+      position: relative;
+      width: 100%;
+      height: 100%;
+      margin: 0 auto;
+    }
+:is(:is(#youboost-ad-premium-banner-root .ad-premium-banner) .premium) .premium-content {
+        width: 100%;
+        overflow: visible;
+        padding-top: 40px;
+      }
+:is(:is(:is(#youboost-ad-premium-banner-root .ad-premium-banner) .premium) .premium-content) .premium-description {
+          display: flex;
+          gap: 53px;
+        }
+:is(:is(:is(:is(#youboost-ad-premium-banner-root .ad-premium-banner) .premium) .premium-content) .premium-description) .premium-description-block {
+            margin-top: 20px;
+            margin-bottom: 30px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+          }
+:is(:is(:is(:is(:is(#youboost-ad-premium-banner-root .ad-premium-banner) .premium) .premium-content) .premium-description) .premium-description-block) span {
+              display: flex;
+              gap: 10px;
+              align-items: baseline;
+              font-weight: 400;
+              font-size: 14px;
+              line-height: 17px;
+            }
+:is(:is(:is(:is(:is(:is(#youboost-ad-premium-banner-root .ad-premium-banner) .premium) .premium-content) .premium-description) .premium-description-block) span)::before {
+                display: block;
+                content: '';
+                background-color: #f00;
+                border-radius: 50%;
+                width: 8px;
+                height: 8px;
+              }
+:is(:is(:is(:is(#youboost-ad-premium-banner-root .ad-premium-banner) .premium) .premium-content) .premium-description) .premium-price-block {
+            position: relative;
+          }
+:is(:is(:is(:is(:is(#youboost-ad-premium-banner-root .ad-premium-banner) .premium) .premium-content) .premium-description) .premium-price-block) .price {
+              position: absolute;
+              right: 50%;
+              transform: translateX(50%);
+              top: -10px;
+            }
+:is(:is(:is(:is(:is(:is(#youboost-ad-premium-banner-root .ad-premium-banner) .premium) .premium-content) .premium-description) .premium-price-block) .price) .special-price {
+                font-weight: 800;
+                font-size: 36px;
+                line-height: 44px;
+              }
+:is(:is(:is(:is(:is(:is(:is(#youboost-ad-premium-banner-root .ad-premium-banner) .premium) .premium-content) .premium-description) .premium-price-block) .price) .special-price) span {
+                  font-size: 16px;
+                  line-height: 22px;
+                  font-weight: 800;
+                }
+:is(:is(:is(:is(:is(:is(#youboost-ad-premium-banner-root .ad-premium-banner) .premium) .premium-content) .premium-description) .premium-price-block) .price) .special-border {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+              }
+:is(:is(:is(:is(:is(:is(#youboost-ad-premium-banner-root .ad-premium-banner) .premium) .premium-content) .premium-description) .premium-price-block) .price) .prev-price {
+                font-size: 22px;
+                line-height: 27px;
+                font-weight: 800;
+                color: #fff;
+                opacity: 0.5;
+                -webkit-text-decoration: line-through;
+                text-decoration: line-through;
+                position: absolute;
+                top: -10px;
+                left: -70px;
+                transform: rotate(-31deg) translateY(-50%);
+              }
+:is(:is(:is(:is(:is(:is(#youboost-ad-premium-banner-root .ad-premium-banner) .premium) .premium-content) .premium-description) .premium-price-block) .price) .period {
+                text-transform: uppercase;
+                color: #fff;
+                font-size: 10px;
+                line-height: 22px;
+                font-weight: 500;
+                letter-spacing: 0.4px;
+                position: absolute;
+                right: -70px;
+              }
+:is(:is(#youboost-ad-premium-banner-root .ad-premium-banner) .premium) .premium-image {
+        position: absolute;
+        width: 187px;
+        height: 240px;
+        right: 40px;
+        bottom: 0;
+      }
+:is(#youboost-ad-premium-banner-root .ad-premium-banner) .tg-banner {
+      box-sizing: border-box;
+      display: flex;
+      justify-content: space-between;
+      gap: 50px;
+      align-items: center;
+      width: 100%;
+      border-radius: 30px;
+      background: linear-gradient(255.96deg, #003a7e 0%, #212e3c 99.93%);
+      padding-inline: 40px;
+    }
+:is(:is(#youboost-ad-premium-banner-root .ad-premium-banner) .tg-banner) .tg-banner-info {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        line-height: 24px;
+        letter-spacing: 0.4px;
+        font-size: 18px;
+        text-align: center;
+        max-width: 700px;
+      }
+:is(:is(:is(#youboost-ad-premium-banner-root .ad-premium-banner) .tg-banner) .tg-banner-info) .banner-text {
+          font-weight: 400;
+          margin-bottom: 20px;
+        }
+:is(:is(:is(:is(#youboost-ad-premium-banner-root .ad-premium-banner) .tg-banner) .tg-banner-info) .banner-text) .title {
+            font-weight: 600;
+          }
+:is(:is(:is(#youboost-ad-premium-banner-root .ad-premium-banner) .tg-banner) .tg-banner-info) .tg-link {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: #fff;
+          font-size: 14px;
+          line-height: 17px;
+          font-weight: 600;
+          -webkit-text-decoration: none;
+          text-decoration: none;
+          cursor: pointer;
+          width: 100%;
+          height: 40px;
+          text-align: center;
+          background: linear-gradient(180deg, #2aabee 0%, #229ed9 9925.83%);
+          border-radius: 30px;
+        }
+:is(:is(#youboost-ad-premium-banner-root .ad-premium-banner) .tg-banner) .tg-icon {
+        width: 120px;
+        height: 120px;
+      }
+:is(#youboost-ad-premium-banner-root .ad-premium-banner) .naruzhu-banner {
+      box-sizing: border-box;
+      display: flex;
+      justify-content: space-between;
+      gap: 50px;
+      align-items: center;
+      width: 100%;
+      border-radius: 12px;
+      background: #000;
+      padding: 32px;
+    }
+:is(:is(#youboost-ad-premium-banner-root .ad-premium-banner) .naruzhu-banner) .naruzhu-info {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+      }
+:is(:is(:is(#youboost-ad-premium-banner-root .ad-premium-banner) .naruzhu-banner) .naruzhu-info) .naruzhu-logo {
+          height: 36px;
+          margin-bottom: 32px;
+        }
+:is(:is(:is(#youboost-ad-premium-banner-root .ad-premium-banner) .naruzhu-banner) .naruzhu-info) .banner-title {
+          width: 100%;
+          font-weight: 700;
+          font-size: 48px;
+          line-height: 110%;
+          letter-spacing: -0.04em;
+          color: #fff;
+        }
+:is(:is(:is(#youboost-ad-premium-banner-root .ad-premium-banner) .naruzhu-banner) .naruzhu-info) .naruzhu-points {
+          display: flex;
+          gap: 24px;
+          flex-wrap: wrap;
+        }
+:is(:is(:is(:is(#youboost-ad-premium-banner-root .ad-premium-banner) .naruzhu-banner) .naruzhu-info) .naruzhu-points) .naruzhu-point {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 110%;
+            letter-spacing: -0.04em;
+            color: #fff;
+            margin-bottom: 16px;
+          }
+:is(:is(:is(:is(:is(#youboost-ad-premium-banner-root .ad-premium-banner) .naruzhu-banner) .naruzhu-info) .naruzhu-points) .naruzhu-point)::before {
+              display: block;
+              content: '';
+              background-color: #ffdd2b;
+              border-radius: 2px;
+              width: 8px;
+              height: 8px;
+            }
+:is(:is(:is(#youboost-ad-premium-banner-root .ad-premium-banner) .naruzhu-banner) .naruzhu-info) .naruzhu-footer {
+          display: flex;
+          gap: 32px;
+          align-items: center;
+          flex-wrap: wrap;
+        }
+:is(:is(:is(:is(#youboost-ad-premium-banner-root .ad-premium-banner) .naruzhu-banner) .naruzhu-info) .naruzhu-footer) .naruzhu-link {
+            max-width: 336px;
+            flex-grow: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #000;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 110%;
+            letter-spacing: -0.04em;
+            -webkit-text-decoration: none;
+            text-decoration: none;
+            cursor: pointer;
+            width: 100%;
+            height: 54px;
+            text-align: center;
+            background: #ffdd2b;
+            border-radius: 6px;
+          }
+:is(:is(:is(:is(:is(#youboost-ad-premium-banner-root .ad-premium-banner) .naruzhu-banner) .naruzhu-info) .naruzhu-footer) .naruzhu-link):hover {
+              opacity: 0.8;
+            }
+:is(:is(:is(:is(#youboost-ad-premium-banner-root .ad-premium-banner) .naruzhu-banner) .naruzhu-info) .naruzhu-footer) .naruzhu-available {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+          }
+:is(:is(:is(:is(:is(#youboost-ad-premium-banner-root .ad-premium-banner) .naruzhu-banner) .naruzhu-info) .naruzhu-footer) .naruzhu-available) .available-text {
+              margin-right: 10px;
+              font-weight: 500;
+              font-size: 16px;
+              line-height: 110%;
+              letter-spacing: -0.04em;
+              color: #acacac;
+              text-wrap: nowrap;
+            }
+:is(:is(:is(:is(:is(#youboost-ad-premium-banner-root .ad-premium-banner) .naruzhu-banner) .naruzhu-info) .naruzhu-footer) .naruzhu-available) .available-icons {
+              width: 28px;
+              height: 28px;
+            }
+:is(:is(#youboost-ad-premium-banner-root .ad-premium-banner) .naruzhu-banner) .naruzhu-image {
+        width: 100%;
+        max-width: 190px;
+        height: 100%;
+        max-height: 190px;
+      }
+:is(#youboost-ad-premium-banner-root .ad-premium-banner) .youboost-neo-banner {
+      position: relative;
+      box-sizing: border-box;
+      display: flex;
+      justify-content: space-between;
+      gap: 50px;
+      align-items: center;
+      width: 100%;
+      border-radius: 12px;
+      background: #151515;
+      padding: 32px;
+    }
+:is(:is(#youboost-ad-premium-banner-root .ad-premium-banner) .youboost-neo-banner) .youboost-neo-bg {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        pointer-events: none;
+      }
+:is(:is(#youboost-ad-premium-banner-root .ad-premium-banner) .youboost-neo-banner) .youboost-neo-info {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+      }
+:is(:is(:is(#youboost-ad-premium-banner-root .ad-premium-banner) .youboost-neo-banner) .youboost-neo-info) .youboost-neo-logo {
+          height: 24px;
+          margin-bottom: auto;
+        }
+:is(:is(:is(#youboost-ad-premium-banner-root .ad-premium-banner) .youboost-neo-banner) .youboost-neo-info) .banner-title {
+          width: 100%;
+          font-weight: 700;
+          font-size: 48px;
+          line-height: 110%;
+          letter-spacing: -0.05em;
+          color: #fff;
+        }
+:is(:is(:is(#youboost-ad-premium-banner-root .ad-premium-banner) .youboost-neo-banner) .youboost-neo-info) .youboost-neo-link {
+          width: fit-content;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-weight: 800;
+          font-size: 20px;
+          letter-spacing: -0.05em;
+          color: #fff;
+          -webkit-text-decoration: none;
+          text-decoration: none;
+          cursor: pointer;
+          padding: 16px 24px;
+          text-align: center;
+          background: #f00;
+          border-radius: 9999px;
+        }
+:is(:is(:is(:is(#youboost-ad-premium-banner-root .ad-premium-banner) .youboost-neo-banner) .youboost-neo-info) .youboost-neo-link):hover {
+            opacity: 0.8;
+          }
+:is(:is(#youboost-ad-premium-banner-root .ad-premium-banner) .youboost-neo-banner) .youboost-neo-features {
+        width: 45%;
+        flex-shrink: 0;
+        max-width: 540px;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 12px;
+      }
+@media screen and (max-width:944px) {
+  :is(:is(#youboost-ad-premium-banner-root .ad-premium-banner) .youboost-neo-banner) .youboost-neo-features {
+          grid-template-columns: minmax(0, 1fr);
+      }
+        }
+:is(:is(:is(#youboost-ad-premium-banner-root .ad-premium-banner) .youboost-neo-banner) .youboost-neo-features) .youboost-neo-features-item {
+          padding: 18px 12px;
+          display: flex;
+          flex-direction: column;
+          gap: 12px;
+          background: rgba(255 255 255 / 5%);
+          border-radius: 16px;
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 110%;
+          letter-spacing: -0.05em;
+          color: #fff;
+        }
+:is(:is(:is(:is(#youboost-ad-premium-banner-root .ad-premium-banner) .youboost-neo-banner) .youboost-neo-features) .youboost-neo-features-item) .youboost-neo-feature-icon {
+            width: 28px;
+            height: 28px;
+          }
+:is(#youboost-ad-premium-banner-root .ad-premium-banner) .ulta-banner {
+      box-sizing: border-box;
+      display: flex;
+      gap: 60px;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 100%;
+      background: #5869e9;
+      border-radius: 30px;
+      padding-inline: 20px;
+    }
+:is(:is(#youboost-ad-premium-banner-root .ad-premium-banner) .ulta-banner) .ulta-banner-info {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        line-height: 28px;
+        letter-spacing: 0.4px;
+        text-align: center;
+        max-width: 551px;
+      }
+:is(:is(:is(#youboost-ad-premium-banner-root .ad-premium-banner) .ulta-banner) .ulta-banner-info) .banner-text {
+          font-weight: 400;
+          margin-bottom: 20px;
+          font-size: 18px;
+        }
+:is(:is(:is(:is(#youboost-ad-premium-banner-root .ad-premium-banner) .ulta-banner) .ulta-banner-info) .banner-text) .title {
+            display: block;
+            font-weight: 800;
+            font-size: 24px;
+            margin-bottom: 12px;
+          }
+:is(:is(:is(#youboost-ad-premium-banner-root .ad-premium-banner) .ulta-banner) .ulta-banner-info) .ulta-link {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: #5869e9;
+          font-size: 14px;
+          line-height: 17px;
+          font-weight: 600;
+          -webkit-text-decoration: none;
+          text-decoration: none;
+          cursor: pointer;
+          width: 100%;
+          height: 40px;
+          text-align: center;
+          background: #fff;
+          border-radius: 30px;
+        }
+#youboost-ad-premium-banner-root .ad-android-banner {
+    font-family: Montserrat, sans-serif;
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 100%;
+    height: 240px;
+    background-color: #333;
+    border-radius: 30px;
+    position: relative;
+    color: #fff;
+    margin-block: 20px;
+    display: flex;
+    min-width: 800px;
+  }
+:is(#youboost-ad-premium-banner-root .ad-android-banner) .android-banner-container {
+      display: grid;
+      grid-template-columns: 1fr auto;
+    }
+:is(#youboost-ad-premium-banner-root .ad-android-banner) .android-banner-logo-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-right: 25px;
+    }
+:is(#youboost-ad-premium-banner-root .ad-android-banner) .android-banner-content {
+      overflow: visible;
+      padding: 25px 66px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+:is(:is(#youboost-ad-premium-banner-root .ad-android-banner) .android-banner-content) .android-banner-title {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: 0.4px;
+        display: flex;
+        align-items: center;
+        gap: 16px;
+      }
+:is(:is(:is(#youboost-ad-premium-banner-root .ad-android-banner) .android-banner-content) .android-banner-title) .android-banner-title-main {
+          color: #f00;
+        }
+:is(:is(#youboost-ad-premium-banner-root .ad-android-banner) .android-banner-content) .android-banner-description {
+        display: flex;
+        flex-wrap: wrap;
+        font-weight: 500;
+        font-size: 18px;
+      }
+#youboost-ad-premium-banner-root .button-primary-a {
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    line-height: 19px;
+    padding-inline: 17px;
+    padding-block: 11px;
+    border-radius: 30px;
+    background-color: #f00;
+    color: #fff;
+    cursor: pointer;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    text-align: center;
+  }
+:is(#youboost-ad-premium-banner-root .button-primary-a):hover {
+      opacity: 0.8;
+    }
+:is(#youboost-ad-premium-banner-root .button-primary-a):focus-visible {
+      outline: 2px solid #fff;
+    }
+#youboost-ad-premium-banner-root .button-primary {
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    line-height: 19px;
+    padding-inline: 17px;
+    padding-block: 11px;
+    border-radius: 30px;
+    background-color: #f00;
+    color: #fff;
+    cursor: pointer;
+  }
+:is(#youboost-ad-premium-banner-root .button-primary):hover {
+      opacity: 0.8;
+    }
+:is(#youboost-ad-premium-banner-root .button-primary):focus-visible {
+      outline: 2px solid #fff;
+    }
+#youboost-ad-premium-banner-root .button-premium {
+    width: 220px;
+    margin-top: 80px;
+  }
+#youboost-ad-premium-banner-root .banner-close-button {
+    position: absolute;
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    top: 10px;
+    right: 10px;
+    transition: opacity 0.3s;
+  }
+:is(#youboost-ad-premium-banner-root .banner-close-button):hover {
+      opacity: 0.8;
+    }

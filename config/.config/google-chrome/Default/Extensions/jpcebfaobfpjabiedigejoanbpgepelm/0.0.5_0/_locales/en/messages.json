@@ -1,0 +1,62 @@
+{
+   "afterAllYouCan": {
+      "message": "Export Data"
+   },
+   "appName": {
+      "message": "CSV Viewer"
+   },
+   "browseFiles": {
+      "message": "browse"
+   },
+   "contextMenuOpenWith": {
+      "message": "Open with CSV Viewer"
+   },
+   "downloadCollection": {
+      "message": "JSON Export"
+   },
+   "dropFilesHere": {
+      "message": "Drop CSV file or"
+   },
+   "extTitle": {
+      "message": "CSV Viewer"
+   },
+   "parseFile": {
+      "message": "View CSV"
+   },
+   "parsePage": {
+      "message": "View CSV"
+   },
+   "rateExtension": {
+      "message": "Rate us"
+   },
+   "resetPage": {
+      "message": "Reset"
+   },
+   "runAction": {
+      "message": "Run action"
+   },
+   "setupSeparator": {
+      "message": "Configure delimiter"
+   },
+   "setupSeparator_auto": {
+      "message": "Auto"
+   },
+   "setupSeparator_comma": {
+      "message": "Comma"
+   },
+   "setupSeparator_semicolon": {
+      "message": "Semicolon"
+   },
+   "setupSeparator_tab": {
+      "message": "Tab"
+   },
+   "shortDesc": {
+      "message": "CSV Viewer allows you to read csv and open csv files. Our csv reader instantly transforms your data into an HTML table"
+   },
+   "storeDesc": {
+      "message": "Use the extension as a simple csv viewer within your browser. Our csv reader is designed to enhance productivity and streamline your workflow, whether you're a data analyst, a marketer, or anyone who frequently works with this type of data.\n\n\n🚀 Why Our Tool is the Right Choice?\n\n➤ Easy Online Access: Enjoy the convenience of an online csv viewer that allows you to open and read spreadsheet data directly from your browser. No more downloading or switching between different applications.\n➤ Speed and Efficiency: Designed as a fast CSV viewer, this extension allows you to view a file in just two clicks, saving you time and improving your productivity.\n➤ Support for Various Delimiters: Our csv online viewer manages files with commas, tabs, semicolons, and more, ensuring your data is accurately presented.\n➤ Versatile Viewing Options: If you need a csv file viewer or an online tool to view these files, this extension has got you covered. View your data in a neatly organized table format, making it easier to analyze and understand.\n\n\n⁉️ How to Use:\n\n1️⃣ Open: Open a file directly from your local storage or any online source through your browser. Simply click on the .csv viewer icon and then click the \"Convert\" button\n2️⃣ View: Once opened, use the extension as a csv file opener and csvreader to view your data. The interface is intuitive, making it easy for anyone to navigate through their files.\n3️⃣ Export: You can easily export it to a different format if needed.\n\n\n🏆 Key Features:\n\n➜ Quick Viewer: Instantly open and view data with a simple click. Our CSV quick viewer feature makes it easy to access your data in less than 5 seconds.\n➜ Integrated Table Viewer: This tool is more than just a basic viewer; it displays data in a table format, enabling you to easily gain insights.\n➜ Lightweight Extension: More than just an extension, it's a complete software solution built for Chrome. Perfect for those who need an excel viewer csv without installing heavy applications.\n➜ Seamless Functionality: Our tool excels as csv.reader, ensuring compatibility and ease of use with a wide array of delimiters (comma, tab, semicolon).\n\n\n🗂️ How to View CSV Files:\n\n🔸 Install the Extension: Download the Csv Viewer from the official web store to unlock its features instantly.\n🔸 Open the website: Go to the website where your document is hosted, or open it in a browser to view csv file\n🔸 Launch the Extension: Click the extension icon in your browser's toolbar to activate its main interface. After opening, you should click the \"Convert\" button\n🔸 Explore Your Data: The extension immediately organizes your data into an accessible format, allowing you to view and organize your information directly through the browser.\n\n\n❤️ Additional Benefits:\n\n● Online Viewer: Access your field-separated values documents from anywhere, at any time.\n● CSV Format Reader: This extension supports various data formats.\n● User-Friendly Viewer: The csv reader feature is designed for simplicity and ease of use, making it suitable for both beginners and professionals.\n● Secure and Reliable: Your data's security is our top priority. The extension ensures that your files are handled securely, with no risk of data loss or unauthorized access.\n\n\n📌 Frequently Asked Questions (FAQs):\n\n❓ Can I use the CSV viewer online on any operating system?\n☀️ Yes, it is a Chrome extension and can be used on any operating system that supports the Chrome browser, including Windows, macOS, and Linux.\n\n❓ Is there a limit to the size of the file I can open the viewer?\n☀️ Our solution supports files over 100 MB but may slow down with very large datasets. We're always improving to manage bigger files more efficiently.\n\n❓ How secure is my data when using this viewer?\n☀️ Your data's security is paramount. Our extension processes files locally on your device, and no data is sent to external servers, ensuring your information remains confidential and secure.\n\n❓ Does the extension support comma-separated values with different delimiters?\n☀️ Yes, it supports files with various delimiters, including commas, semicolons, and tabs. You can specify the delimiter to ensure the data is displayed correctly.\n\n❓ Can I convert a file to Excel or JSON?\n☀️ Yes, the extension's advanced export capabilities enable you to convert and export your data to JSON format. In the future, we will also support Excel (XLSX)\n\n❓ How to Open Csv Files?\n☀️ Click the extension icon in your browser and select a file to open it with the CSV viewer.\n\n\nIn summary, the Csv Viewer combines the functionality of a csv reader online and cvs reader. Whether you're working with large datasets or simple tables, this extension is designed to meet all your needs. Try today and experience the convenience of managing your spreadsheet documents directly in your browser.\n"
+   },
+   "uploadFile": {
+      "message": "Upload file"
+   }
+}

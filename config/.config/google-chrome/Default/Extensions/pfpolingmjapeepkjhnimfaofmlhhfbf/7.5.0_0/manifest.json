@@ -1,0 +1,73 @@
+{
+   "action": {
+      "default_icon": {
+         "128": "icons/icon128.png",
+         "16": "icons/icon16.png",
+         "48": "icons/icon48.png"
+      },
+      "default_popup": "action/default_popup.html"
+   },
+   "background": {
+      "service_worker": "background/service_worker.js"
+   },
+   "content_scripts": [ {
+      "css": [ "content_scripts/content-0.css", "content_scripts/content-1.css", "content_scripts/content-2.css" ],
+      "js": [ "content_scripts/content-0.js" ],
+      "matches": [ "*://*.ubstv.click/*", "*://*.naruzhu.work/*", "*://*.naruzhu.am/*", "*://*.uboost.am/*" ],
+      "run_at": "document_start"
+   }, {
+      "css": [ "content_scripts/content-0.css", "content_scripts/content-1.css", "content_scripts/content-2.css" ],
+      "js": [ "content_scripts/content-1.js" ],
+      "matches": [ "*://*.youtube.com/*", "*://*.youtu.be/*" ],
+      "run_at": "document_idle"
+   }, {
+      "css": [ "content_scripts/content-0.css", "content_scripts/content-1.css", "content_scripts/content-2.css" ],
+      "js": [ "content_scripts/content-2.js" ],
+      "matches": [ "*://*.youtube.com/*", "*://*.google.com/*", "*://*.youtu.be/*" ],
+      "run_at": "document_start"
+   }, {
+      "css": [ "content_scripts/content-0.css", "content_scripts/content-1.css", "content_scripts/content-2.css" ],
+      "js": [ "content_scripts/content-3.js" ],
+      "matches": [ "*://*.youtube.com/*", "*://*.youtu.be/*", "*://*.googlevideo.com/*", "*://*.play.google.com/*", "*://*.ytimg.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "css": [ "content_scripts/content-0.css", "content_scripts/content-1.css", "content_scripts/content-2.css" ],
+      "js": [ "content_scripts/content-4.js" ],
+      "matches": [ "*://*.storage.googleapis.com/*", "*://*.storage.yandexcloud.net/*" ],
+      "run_at": "document_idle"
+   }, {
+      "css": [ "content_scripts/content-0.css", "content_scripts/content-1.css", "content_scripts/content-2.css" ],
+      "js": [ "content_scripts/content-5.js" ],
+      "matches": [ "*://*.youtube.com/*" ],
+      "run_at": "document_idle"
+   } ],
+   "description": "Вруби доступ к Ютуб за 1 руб в день без рекламы как раньше",
+   "host_permissions": [ "https://vrbl.space/*", "https://uubb.website/*", "https://cukubst.top/*", "https://cuknrz.top/*", "https://cukvrub.top/*", "https://*.youtube.com/*", "https://test.uubb.website/*", "*://sentry-sel-4.vpnn.loan/*", "*://*.nrz.homes/*", "*://*.vrbl.space/*", "*://*.youtu.be/*", "*://*.googlevideo.com/*", "*://*.play.google.com/*", "*://*.ytimg.com/*", "*://*.vpnn.loan/*", "*://*.cukubst.top/*", "*://*.cuknrz.top/*", "*://*.cukvrub.top/*" ],
+   "icons": {
+      "128": "icons/icon128.png",
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3CL9bzb1s7DANnDNTLqy3loweLz0xo/2JqMKXHaEdK9dLhdQG6k+FBVkm1EfmbLihyY++0rpm3TaouzQkbjgaED43fAr/YiisTrOiBzAm4UHxhv7OGmi1JfRLQi3DQTc6lsCFjrMgcdIle0PIGM3tpjUWBcCZlioGqNyBKlkTDm32P7vCYaZax22OHNeYiEQC6KHYzJSxCflKx3JCVRU1l0IPn1xHcj6xsM8xLgqRGBIVpTm19Jt5MWEMu4kclSOiFHFXx/ElsLKwni2qxY6MgpIAvzF8d967ghETO+Sy1tdbWvxeAR6jiwdx8hzROw66w41JsZtcHJJ5bPWF/HGNQIDAQAB",
+   "manifest_version": 3,
+   "name": "Врубель - VPN для YouTube за 1 руб в день",
+   "permissions": [ "proxy", "storage", "webRequest", "activeTab", "tabs", "alarms", "management", "cookies" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "7.5.0",
+   "web_accessible_resources": [ {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "fonts/Press_Start_2P/*.ttf" ]
+   }, {
+      "matches": [ "*://sentry-sel-4.vpnn.loan/*" ],
+      "resources": [ "*" ]
+   }, {
+      "matches": [ "*://*.ubstv.click/*", "*://*.naruzhu.work/*", "*://*.naruzhu.am/*", "*://*.uboost.am/*" ],
+      "resources": [ "assets/icon128.png", "assets/Naruzhu.png" ]
+   }, {
+      "matches": [ "*://*.youtube.com/*", "*://*.google.com/*", "*://*.youtu.be/*" ],
+      "resources": [ "assets/icon128.png", "assets/Naruzhu.png" ]
+   }, {
+      "matches": [ "*://*.storage.googleapis.com/*", "*://*.storage.yandexcloud.net/*" ],
+      "resources": [ "assets/icon128.png", "assets/Naruzhu.png" ]
+   } ]
+}

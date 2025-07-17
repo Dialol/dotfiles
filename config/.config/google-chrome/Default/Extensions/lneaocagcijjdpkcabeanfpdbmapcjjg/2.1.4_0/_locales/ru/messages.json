@@ -1,0 +1,14 @@
+{
+   "appDescription": {
+      "description": "The description of the application",
+      "message": "Получите доступ к любым сайтам с бесплатным VPN расширением VPNLY"
+   },
+   "appName": {
+      "description": "The name of the application",
+      "message": "Бесплатный VPN Proxy - VPNLY"
+   },
+   "appNameBeta": {
+      "description": "The name of the application",
+      "message": "VPNLY (BETA) - Бесплатный VPN Proxy сервис"
+   }
+}

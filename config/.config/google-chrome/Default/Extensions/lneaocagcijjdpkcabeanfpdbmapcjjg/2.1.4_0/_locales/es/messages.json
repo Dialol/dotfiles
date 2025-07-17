@@ -1,0 +1,14 @@
+{
+   "appDescription": {
+      "description": "La descripción de la aplicación",
+      "message": "Acceda a cualquier sitio web con la extensión VPN gratis VPNLY"
+   },
+   "appName": {
+      "description": "El nombre de la aplicación",
+      "message": "Proxy VPN gratis - VPNLY"
+   },
+   "appNameBeta": {
+      "description": "El nombre de la aplicación",
+      "message": "VPNLY (BETA) - Servicio de proxy VPN gratis"
+   }
+}

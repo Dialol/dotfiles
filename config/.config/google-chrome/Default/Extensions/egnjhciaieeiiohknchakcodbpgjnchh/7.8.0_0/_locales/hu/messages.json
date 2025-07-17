@@ -1,0 +1,60 @@
+{
+   "about_changeLog": {
+      "description": "Link to the extension's list of changes per release",
+      "message": "Változások"
+   },
+   "about_name": {
+      "description": "Name of the 'About' section, where users can see information about the extension",
+      "message": "Névjegy"
+   },
+   "about_sourceCode": {
+      "description": "Link to the extension's source code and its license type (MIT)",
+      "message": "Forrás kód (MIT)"
+   },
+   "about_support": {
+      "description": "Link to the extension's support site",
+      "message": "Segítségnyújtás"
+   },
+   "contextMenu_corralTab": {
+      "description": "Label for context menu item that closes the clicked tab and adds it to the corral",
+      "message": "Lap bezárása és URL azonnali mentése"
+   },
+   "contextMenu_lockDomain": {
+      "description": "Label for context menu item that locks the domain of the clicked tab",
+      "message": "Soha ne zárjon be semmit ezen a domainen"
+   },
+   "contextMenu_lockSpecificDomain": {
+      "description": "Label for context menu item that locks the domain of the clicked tab",
+      "message": "Soha ne zárjon be semmit ezen a domainen: $domain$",
+      "placeholders": {
+         "domain": {
+            "content": "$1",
+            "example": "www.wikipedia.org"
+         }
+      }
+   },
+   "contextMenu_lockTab": {
+      "description": "Label for context menu item that locks the clicked tab",
+      "message": "Soha ne zárja be ezt a lapot"
+   },
+   "extName": {
+      "description": "The name of this extension",
+      "message": "Tab Wrangler"
+   },
+   "options_option_theme_dark": {
+      "description": "'Dark' choice for color theme. Dark background, light font",
+      "message": "Sötét"
+   },
+   "options_option_theme_label": {
+      "description": "Label preceding button group for choosing the color theme",
+      "message": "Téma"
+   },
+   "options_option_theme_light": {
+      "description": "'Light' choice for color theme. Light background, dark font",
+      "message": "Világos"
+   },
+   "options_option_theme_system": {
+      "description": "'System' choice for color theme. Uses the preferred color theme of user's OS.",
+      "message": "Rendszer"
+   }
+}

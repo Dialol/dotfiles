@@ -1,0 +1,14 @@
+{
+   "appDescription": {
+      "description": "คำอธิบายแอปพลิเคชัน",
+      "message": "เข้าถึงเว็บไซต์ใดก็ได้ด้วยส่วนขยาย VPN ฟรี VPNLY"
+   },
+   "appName": {
+      "description": "ชื่อแอปพลิเคชัน",
+      "message": "VPN Proxy ฟรี - VPNLY"
+   },
+   "appNameBeta": {
+      "description": "ชื่อแอปพลิเคชัน",
+      "message": "VPNLY (เบต้า) - บริการ VPN Proxy ฟรี"
+   }
+}

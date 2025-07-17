@@ -1,0 +1,5 @@
+.extension-modal:not(.extension-modal--visible) {
+  visibility: hidden !important;
+  opacity: 0 !important;
+  z-index: -10 !important;
+}

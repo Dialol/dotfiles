@@ -1,0 +1,411 @@
+/*
+* Styles for PageLoader component
+*/
+.page-loader-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #151515;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 100000;
+  overflow: hidden;
+  font-family: Montserrat, sans-serif;
+}
+.page-loader-overlay .loader-content {
+    padding: 32px 0;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    max-height: 1024px;
+    max-width: 1440px;
+    padding-inline: 20px;
+  }
+:is(.page-loader-overlay .loader-content) .loader-logo {
+      height: 24px;
+      margin-bottom: auto;
+    }
+:is(.page-loader-overlay .loader-content) .animated-loader {
+      margin-block: 8px;
+      width: 80px;
+      height: 80px;
+    }
+:is(:is(.page-loader-overlay .loader-content) .animated-loader) .loader-part {
+        color: #fff;
+        opacity: 0;
+        animation: loader 2s linear infinite;
+      }
+:is(:is(.page-loader-overlay .loader-content) .animated-loader) .loader-part-1 {
+        animation-delay: 1.75s;
+      }
+:is(:is(.page-loader-overlay .loader-content) .animated-loader) .loader-part-2 {
+        animation-delay: 1.5s;
+      }
+:is(:is(.page-loader-overlay .loader-content) .animated-loader) .loader-part-3 {
+        animation-delay: 1.25s;
+      }
+:is(:is(.page-loader-overlay .loader-content) .animated-loader) .loader-part-4 {
+        animation-delay: 1s;
+      }
+:is(:is(.page-loader-overlay .loader-content) .animated-loader) .loader-part-5 {
+        animation-delay: 0.75s;
+      }
+:is(:is(.page-loader-overlay .loader-content) .animated-loader) .loader-part-6 {
+        animation-delay: 0.5s;
+      }
+:is(:is(.page-loader-overlay .loader-content) .animated-loader) .loader-part-7 {
+        animation-delay: 0.25s;
+      }
+:is(:is(.page-loader-overlay .loader-content) .animated-loader) .loader-part-8 {
+        animation-delay: 0s;
+      }
+:is(.page-loader-overlay .loader-content) .loader-text {
+      font-weight: 600;
+      font-size: 28px;
+      line-height: 110%;
+      letter-spacing: -0.05em;
+      text-align: center;
+      color: #8a8a8a;
+    }
+:is(.page-loader-overlay .loader-content) .loader-timer {
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 30px;
+      width: 100%;
+      text-align: center;
+    }
+:is(:is(.page-loader-overlay .loader-content) .loader-timer) span {
+        display: inline-block;
+        width: 40px;
+        text-align: center;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 30px;
+        color: #f00;
+      }
+:is(.page-loader-overlay .loader-content) .tg-banner {
+      box-sizing: border-box;
+      margin-top: auto;
+      display: flex;
+      justify-content: space-between;
+      gap: 80px;
+      align-items: center;
+      width: 100%;
+      max-width: 900px;
+      height: 160px;
+      border-radius: 30px;
+      background: linear-gradient(255.96deg, #003a7e 0%, #212e3c 99.93%);
+      padding-inline: 80px;
+    }
+:is(:is(.page-loader-overlay .loader-content) .tg-banner) .tg-banner-info {
+        box-sizing: border-box;
+        height: 100%;
+        padding-block: 26px;
+        line-height: 24px;
+        letter-spacing: 0.4px;
+        font-size: 14px;
+        text-align: center;
+        max-width: 500px;
+      }
+:is(:is(:is(.page-loader-overlay .loader-content) .tg-banner) .tg-banner-info) .banner-text {
+          font-weight: 400;
+          margin-bottom: 20px;
+        }
+:is(:is(:is(:is(.page-loader-overlay .loader-content) .tg-banner) .tg-banner-info) .banner-text) span {
+            font-weight: 600;
+          }
+:is(:is(:is(.page-loader-overlay .loader-content) .tg-banner) .tg-banner-info) .tg-link {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: #fff;
+          font-size: 14px;
+          line-height: 17px;
+          font-weight: 600;
+          -webkit-text-decoration: none;
+          text-decoration: none;
+          cursor: pointer;
+          width: 100%;
+          height: 40px;
+          text-align: center;
+          background: linear-gradient(180deg, #2aabee 0%, #229ed9 9925.83%);
+          border-radius: 30px;
+        }
+:is(:is(.page-loader-overlay .loader-content) .tg-banner) .tg-icon {
+        width: 100px;
+        height: 100px;
+      }
+:is(.page-loader-overlay .loader-content) .youboost-neo-banner {
+      margin-top: auto;
+      position: relative;
+      box-sizing: border-box;
+      display: flex;
+      justify-content: space-between;
+      gap: 50px;
+      align-items: center;
+      width: 100%;
+      border-radius: 16px;
+      background: #1c1c1c;
+      padding: 32px;
+    }
+:is(:is(.page-loader-overlay .loader-content) .youboost-neo-banner) .youboost-neo-bg {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        pointer-events: none;
+      }
+:is(:is(.page-loader-overlay .loader-content) .youboost-neo-banner) .youboost-neo-info {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+      }
+:is(:is(:is(.page-loader-overlay .loader-content) .youboost-neo-banner) .youboost-neo-info) .youboost-neo-logo {
+          height: 24px;
+          margin-bottom: auto;
+        }
+:is(:is(:is(.page-loader-overlay .loader-content) .youboost-neo-banner) .youboost-neo-info) .banner-title {
+          width: 100%;
+          font-weight: 700;
+          font-size: 48px;
+          line-height: 110%;
+          letter-spacing: -0.05em;
+          color: #fff;
+        }
+:is(:is(:is(.page-loader-overlay .loader-content) .youboost-neo-banner) .youboost-neo-info) .youboost-neo-link {
+          width: fit-content;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-weight: 800;
+          font-size: 20px;
+          letter-spacing: -0.05em;
+          color: #fff;
+          -webkit-text-decoration: none;
+          text-decoration: none;
+          cursor: pointer;
+          padding: 16px 24px;
+          text-align: center;
+          background: #f00;
+          border-radius: 9999px;
+        }
+:is(:is(:is(:is(.page-loader-overlay .loader-content) .youboost-neo-banner) .youboost-neo-info) .youboost-neo-link):hover {
+            opacity: 0.8;
+          }
+:is(:is(.page-loader-overlay .loader-content) .youboost-neo-banner) .youboost-neo-features {
+        width: 45%;
+        flex-shrink: 0;
+        max-width: 540px;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 12px;
+      }
+@media screen and (max-width:944px) {
+:is(:is(.page-loader-overlay .loader-content) .youboost-neo-banner) .youboost-neo-features {
+          grid-template-columns: minmax(0, 1fr);
+      }
+        }
+:is(:is(:is(.page-loader-overlay .loader-content) .youboost-neo-banner) .youboost-neo-features) .youboost-neo-features-item {
+          padding: 18px 12px;
+          display: flex;
+          flex-direction: column;
+          gap: 12px;
+          background: rgba(255 255 255 / 5%);
+          border-radius: 16px;
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 110%;
+          letter-spacing: -0.05em;
+          color: #fff;
+        }
+:is(:is(:is(:is(.page-loader-overlay .loader-content) .youboost-neo-banner) .youboost-neo-features) .youboost-neo-features-item) .youboost-neo-feature-icon {
+            width: 28px;
+            height: 28px;
+          }
+.page-loader-overlay .current-wrapper {
+    position: relative;
+    margin-inline: auto;
+    width: 100%;
+  }
+.page-loader-overlay .current-loader {
+    max-width: 220px;
+    color: var(--button-background-primary);
+  }
+.page-loader-overlay .current-info {
+    width: 268px;
+    position: absolute;
+    top: 160px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0.25px;
+  }
+
+.adfox-container {
+  width: 100%;
+  position: relative;
+}
+
+.adfox-container iframe {
+    width: 100%;
+    height: auto;
+    display: block;
+    border: 0;
+    padding: 0;
+  }
+
+
+@keyframes loader {
+
+  0%,
+  100% {
+    opacity: 0;
+  }
+
+  12.5% {
+    opacity: 1;
+  }
+
+  25% {
+    opacity: 0.9;
+  }
+
+  37.5% {
+    opacity: 0.8;
+  }
+
+  50% {
+    opacity: 0.7;
+  }
+
+  62.5% {
+    opacity: 0.6;
+  }
+
+  75% {
+    opacity: 0.5;
+  }
+
+  87.5% {
+    opacity: 0.4;
+  }
+
+  87.6% {
+    opacity: 0;
+  }
+}
+
+/*
+* Styles for ConnectionFailed
+*/
+#connection-failed-root {
+  flex: 1 1;
+}
+
+.connection-failed-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  gap: 30px;
+}
+
+.connection-failed-container h2,.connection-failed-container p {
+    color: var(--yt-message-renderer-text-color, var(--yt-spec-text-primary));
+  }
+
+.connection-failed-container h2 {
+    font-size: 26px;
+    margin: 0;
+  }
+
+.connection-failed-container p {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0;
+  }
+
+.connection-failed-image-container {
+  width: 120px;
+  height: 120px;
+}
+
+.connection-failed-image-container img {
+    width: 100%;
+    height: 100%;
+  }
+.vpn-captcha-banner {
+  position: fixed;
+  width: 100vw;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: var(--background-color);
+  text-align: center;
+  z-index: 999999;
+}
+
+.vpn-captcha-banner .banner {
+  padding: 64px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(primary-color);
+}
+
+.vpn-captcha-banner .content {
+  max-width: 375px;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: var(--primary-color);
+  gap: 12px;
+}
+
+.vpn-captcha-banner .loader-logo {
+  width: 131px;
+  height: auto;
+}
+
+.vpn-captcha-banner .text {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 110%;
+  text-align: center;
+  color: var(--main-text-color);
+}
+
+#youboost-neo {
+  --background-color: #151515;
+  --main-text-color: #fff;
+  --primary-color: #f00;
+}
+
+#vrubel {
+  --background-color: #151515;
+  --main-text-color: #fff;
+  --primary-color: #5f2e99;
+}
+
+#naruzhuv2 {
+  --background-color: #151515;
+  --main-text-color: #fff;
+  --primary-color: #ffd600;
+}
+

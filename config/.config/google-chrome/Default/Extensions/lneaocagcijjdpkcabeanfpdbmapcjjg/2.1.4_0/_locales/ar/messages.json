@@ -1,0 +1,14 @@
+{
+   "appDescription": {
+      "description": "وصف التطبيق",
+      "message": "الوصول إلى أي موقع ويب باستخدام ملحق VPN مجاني VPNLY"
+   },
+   "appName": {
+      "description": "اسم التطبيق",
+      "message": "وكيل VPN مجاني - VPNLY"
+   },
+   "appNameBeta": {
+      "description": "اسم التطبيق",
+      "message": "VPNLY (BETA) - خدمة وكيل VPN مجانية VPN"
+   }
+}

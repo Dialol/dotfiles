@@ -1,0 +1,34 @@
+{
+   "background": {
+      "service_worker": "js/bg.js"
+   },
+   "content_scripts": [ {
+      "css": [ "css/popup.css", "css/shareModal.css" ],
+      "js": [ "js/inject.js", "libs/jquery.js", "libs/shareModal.js" ],
+      "matches": [ "https://vk.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": true,
+      "css": [ "css/audioPopup.css" ],
+      "js": [ "js/audioPopup.js" ],
+      "matches": [ "*://*/*" ],
+      "run_at": "document_start"
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_description__",
+   "homepage_url": "https://vk.com/audio?section=all",
+   "host_permissions": [ "*://*/*" ],
+   "icons": {
+      "128": "img/logo.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAshStdb+uDwtVgsoob2QPDW7aZnSG38EA6Hcck7x7DXwQWSZybaaBJAGbi5503Ggfmm4Q7I/AwIFGHCqVcJwvswwQQ/YiwyOtA+5fiBFHc5HDQii1AbfSldIXGG92OFBhaH6w4ihpJLHyupwV6ORGl75ZaOMiPXkZPskVQd+EqLyiq4LCQ1y1hjdeL6C5fgR3BuPNdmY2xwzEq/yLCCC4M89o3o2iSBiL7pMoKNyq74LMvCitum2OBiIqOwQZ1wf7zQje9b/yNJvBgHC0zbyRoyomQDUPF7z0/k85G7sZyYy7kRYpaYhlmaUeKVLTvdKjOMTh1GYZFDZDJUJPV9ZxdQIDAQAB",
+   "manifest_version": 3,
+   "name": "__MSG_name__",
+   "permissions": [ "storage", "contextMenus" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.1.8",
+   "web_accessible_resources": [ {
+      "matches": [ "*://*/*" ],
+      "resources": [ "*", "css/*" ]
+   } ]
+}

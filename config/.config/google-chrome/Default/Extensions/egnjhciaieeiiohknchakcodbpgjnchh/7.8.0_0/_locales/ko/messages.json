@@ -1,0 +1,456 @@
+{
+   "about_changeLog": {
+      "description": "Link to the extension's list of changes per release",
+      "message": "변경내역"
+   },
+   "about_name": {
+      "description": "Name of the 'About' section, where users can see information about the extension",
+      "message": "정보"
+   },
+   "about_sourceCode": {
+      "description": "Link to the extension's source code and its license type (MIT)",
+      "message": "소스코드 (MIT)"
+   },
+   "about_support": {
+      "description": "Link to the extension's support site",
+      "message": "지원"
+   },
+   "commandLockUnlockActiveTab": {
+      "description": "Description of keyboard shortcut to lock or unlock the active tab",
+      "message": "현재 탭을 잠그기"
+   },
+   "commandWrangleCurrentTab": {
+      "description": "Description of keyboard shortcut to close and save the active tab",
+      "message": "현재 탭을 저장하고 닫기"
+   },
+   "contextMenu_corralTab": {
+      "description": "Label for context menu item that closes the clicked tab and adds it to the corral",
+      "message": "탭을 닫고 URL을 저장합니다"
+   },
+   "contextMenu_lockDomain": {
+      "description": "Label for context menu item that locks the domain of the clicked tab",
+      "message": "이 탭을 절대로 닫지 않습니다"
+   },
+   "contextMenu_lockSpecificDomain": {
+      "description": "Label for context menu item that locks the domain of the clicked tab",
+      "message": "$domain$ 로 시작하는 도메인은 닫지 않습니다",
+      "placeholders": {
+         "domain": {
+            "content": "$1",
+            "example": "www.wikipedia.org"
+         }
+      }
+   },
+   "contextMenu_lockTab": {
+      "description": "Label for context menu item that locks the clicked tab",
+      "message": "이 탭은 절대로 닫지 않습니다"
+   },
+   "corral_currentSort": {
+      "description": "Button title for showing current sort order",
+      "message": "현재 $sort_order$ 으로 정렬되었습니다",
+      "placeholders": {
+         "sort_order": {
+            "content": "$1",
+            "example": "Reverse Chrono"
+         }
+      }
+   },
+   "corral_emptyList": {
+      "description": "Message displayed in the tab corral when the extension has not yet closed any tabs",
+      "message": "아직 닫힌 탭이 없습니다. Tab Wrangler가 탭을 닫으면 이곳에 표시됩니다. 탭을 열어두고 떠나세요!"
+   },
+   "corral_noTabsMatch": {
+      "description": "Message shown when no tabs match the user's search query",
+      "message": "탭을 찾지 못했습니다. 다른 검색어나 조금 일반적인 검색어를 입력해보세요."
+   },
+   "corral_removeSelectedTabs": {
+      "description": "Button title for removing all selected tabs from the corral",
+      "message": "선택한 탭 삭제"
+   },
+   "corral_restoreSelectedTabs": {
+      "description": "Button title for restoring / re-opening all selected tabs from the corral",
+      "message": "선택한 탭 복구"
+   },
+   "corral_searchResults_clear": {
+      "description": "Button title for clearing the search value and resetting results",
+      "message": "검색 삭제"
+   },
+   "corral_searchResults_label": {
+      "description": "Label showing number of tab search results",
+      "message": "$count$ 개의 검색결과",
+      "placeholders": {
+         "count": {
+            "content": "$1",
+            "example": "33"
+         }
+      }
+   },
+   "corral_searchTabs": {
+      "description": "Text input placeholder for searching list of closed tabs",
+      "message": "탭 검색..."
+   },
+   "corral_sortBy": {
+      "description": "Label prefixing sort order of the tab corral",
+      "message": "정렬:"
+   },
+   "corral_sortDomain": {
+      "description": "Label for sorting the tab corral list by domain",
+      "message": "도메인"
+   },
+   "corral_sortDomain_descending": {
+      "description": "Label for sorting the tab corral list by domain in descending order",
+      "message": "도메인 (역순)"
+   },
+   "corral_sortDomain_descending_short": {
+      "description": "Short label (for use in a narrow button) for sorting the tab corral list by domain in descending order",
+      "message": "도메인 (역순)"
+   },
+   "corral_sortDomain_short": {
+      "description": "Short label (for use in a narrow button) for sorting the tab corral list by domain",
+      "message": "도메인"
+   },
+   "corral_sortPageTitle": {
+      "description": "Label for sorting the tab corral list by page title",
+      "message": "페이지 제목"
+   },
+   "corral_sortPageTitle_descending": {
+      "description": "Label for sorting the tab corral list by page title in descending order",
+      "message": "페이지 제목 (역순)"
+   },
+   "corral_sortPageTitle_descending_short": {
+      "description": "Short label (for use in a narrow button) for sorting the tab corral list by page title in descending order",
+      "message": "제목 (역순)"
+   },
+   "corral_sortPageTitle_short": {
+      "description": "Short label (for use in a narrow button) for sorting the tab corral list by page title",
+      "message": "제목"
+   },
+   "corral_sortTimeClosed": {
+      "description": "Label for sorting the tab corral list by tab closed time",
+      "message": "닫힌 시각 (오래된 순)"
+   },
+   "corral_sortTimeClosed_descending": {
+      "description": "Label for sorting the tab corral list by tab closed time in descending order",
+      "message": "닫힌 시각 (최신 순)"
+   },
+   "corral_sortTimeClosed_descending_short": {
+      "description": "Short label (for use in a narrow button) for sorting the tab corral list by tab closed time in descending order",
+      "message": "닫힌 시각 (최신 순)"
+   },
+   "corral_sortTimeClosed_short": {
+      "description": "Short label (for use in a narrow button) for sorting the tab corral list by tab closed time",
+      "message": "닫힌 시각 (오래된 순)"
+   },
+   "corral_tabSessionFresh": {
+      "description": "Tooltip describing why certain tabs will have their full session restored",
+      "message": "이 탭을 복구하면 전체 세션(탐색 기록, 스크롤 위치 등)이 복구됩니다. 브라우저 제한으로 최근 25개의 탭까지만 가능합니다."
+   },
+   "corral_tabsWrangledFull": {
+      "description": "Description of number of tabs wrangled by this extension",
+      "message": "탭 $count$개 보관됨 ($percent$%)",
+      "placeholders": {
+         "count": {
+            "content": "$1",
+            "example": "12"
+         },
+         "percent": {
+            "content": "$2",
+            "example": "18"
+         }
+      }
+   },
+   "corral_toggleAllTabs_deselectAll": {
+      "description": "Button title for deselecting all tabs in the tab corral",
+      "message": "모든 탭 선택해제"
+   },
+   "corral_toggleAllTabs_selectAll": {
+      "description": "Button title for selecting all tabs in the tab corral",
+      "message": "모든 탭 선택"
+   },
+   "extDescription": {
+      "description": "Brief description of the extension",
+      "message": "사용하지 않는 탭들을 알아서 닫고 다시 손쉽게 열 수 있게 해줍니다"
+   },
+   "extName": {
+      "description": "The name of this extension",
+      "message": "Tab Wrangler"
+   },
+   "extension_pause": {
+      "description": "Label for button that pauses the extension",
+      "message": "일시정지"
+   },
+   "extension_resume": {
+      "description": "Label for button that resumes (unpauses) the extension",
+      "message": "재실행"
+   },
+   "options_dedupe_label": {
+      "description": "Label for the de-duplicating option",
+      "message": "탭 보관함에서 중복 탭 방지:"
+   },
+   "options_dedupe_option_exactURLMatch": {
+      "description": "Label for option to de-duplicate when URL matches exactly",
+      "message": "URL이 정확히 일치"
+   },
+   "options_dedupe_option_exactURLMatch_description": {
+      "description": "Description for option to de-duplicate when URL matches exactly",
+      "message": "탭이 이미 보관되어있다면 새로운 URL이 보관함에 추가되고 URL이 같은 이전 탭은 보관함에서 제거됩니다."
+   },
+   "options_dedupe_option_exactURLMatch_label": {
+      "description": "Extended label of the de-duplicate when tab URL matches exactly option",
+      "message": "URL이 정확히 일치"
+   },
+   "options_dedupe_option_hostnameAndTitleMatch": {
+      "description": "Label for option to de-duplicate when hostname and page title match",
+      "message": "호스트이름과 페이지 제목이 일치"
+   },
+   "options_dedupe_option_hostnameAndTitleMatch_description": {
+      "description": "Extended description for option to de-duplicate when hostname and page title match",
+      "message": "탭이 이미 보관되어있다면 새로운 페이지를 보관함에 추가하고 기존의 호스트 이름 (예:\"wikipedia.org\")과 페이지이름이 같은 오래된 탭은 보관함에서 제거됩니다."
+   },
+   "options_dedupe_option_hostnameAndTitleMatch_label": {
+      "description": "Extended label for option to de-duplicate when hostname and page title match",
+      "message": "호스트 이름과 페이지 제목이 일치하는 경우"
+   },
+   "options_dedupe_option_withDupes": {
+      "description": "Label for option to never de-duplicate the tab corral",
+      "message": "하지 않음 (기본값)"
+   },
+   "options_dedupe_option_withDupes_description": {
+      "description": "Description of the never de-duplicating tabs option",
+      "message": "탭이 이미 보관되어있어도 새로운 탭이 보관함에 추가됩니다. 보관함에 다른 변경 사항은 없습니다."
+   },
+   "options_dedupe_option_withDupes_label": {
+      "description": "Label for never de-duplicating option",
+      "message": "하지않음"
+   },
+   "options_importExport_description": {
+      "description": "Description of the import/export feature shown next to import/export buttons",
+      "message": "보관 중인 탭에 대한 모든 정보를 내보냅니다. 확장 프로그램을 다시 설치한 후 이전 상태로 복원하는 편리한 방법입니다."
+   },
+   "options_importExport_export": {
+      "description": "Button label to begin exporting closed tabs",
+      "message": "내보내기"
+   },
+   "options_importExport_exporting": {
+      "description": "Label displayed when exporting closed tabs",
+      "message": "내보내는 중..."
+   },
+   "options_importExport_import": {
+      "description": "Button label to begin importing closed tabs",
+      "message": "가져오기"
+   },
+   "options_importExport_importWarning": {
+      "description": "Description of the destructiveness of importing; current tabs are overwritten",
+      "message": "경고 : 데이터 가져오기는 기존의 모든 데이터를 덮어씁니다. (백업이 없다면 복구할 수 없습니다.)"
+   },
+   "options_importExport_importing": {
+      "description": "Label displayed when importing closed tabs",
+      "message": "가져오는 중..."
+   },
+   "options_name": {
+      "description": "Name of the 'Options' section, where users can configure the extension",
+      "message": "설정"
+   },
+   "options_option_autoLock_add": {
+      "description": "Button label for adding to whitelist",
+      "message": "패턴 추가"
+   },
+   "options_option_autoLock_empty": {
+      "description": "Message shown when there are no whitelisted URLs",
+      "message": "아직 자동 잠금 URL이 없습니다. 위의 양식을 사용하여 허용 목록에 일부를 추가하십시오."
+   },
+   "options_option_autoLock_example": {
+      "description": "Example describing how the whitelist works",
+      "message": "예: \"cnn\"은 \"https://www.cnn.com\"의 모든 페이지와 \"cnn\"이 있는 모든 URL과 일치합니다."
+   },
+   "options_option_autoLock_label": {
+      "description": "Label preceeding input for adding URL to whitelist",
+      "message": "다음을 포함하는 URL이 있는 탭을 자동으로 잠급니다:"
+   },
+   "options_option_autoLock_remove": {
+      "description": "Button label for removing a URL from the whitelist",
+      "message": "삭제"
+   },
+   "options_option_autoLock_urlHeader": {
+      "description": "Table column header for list of whitelisted URL strings",
+      "message": "URL 주소"
+   },
+   "options_option_clearOnQuit_label": {
+      "description": "Label for checkbox to clear the tab list after quitting the Browser",
+      "message": "종료 시 닫힌 탭 목록 지우기"
+   },
+   "options_option_debounceOnActivated_label": {
+      "description": "Label for checkbox to reset a tab's timer only after it's active for 1 second",
+      "message": "탭의 타이머가 1초 동안 활성화된 후에만 재설정"
+   },
+   "options_option_filterAudio_label": {
+      "description": "Label for checkbox to filter tabs that are playing audio",
+      "message": "오디오를 재생 중인 탭을 닫지 않기"
+   },
+   "options_option_filterGroupedTabs_label": {
+      "description": "Label for checkbox to lock tabs that are in a tab group",
+      "message": "탭 그룹 안에 있는 탭을 닫지 않기"
+   },
+   "options_option_minTabs_tabs": {
+      "description": "Input title for minimum number of tabs",
+      "message": "숫자는 0보다 크거나 같아야 합니다."
+   },
+   "options_option_rememberTabs_label": {
+      "description": "Label preceeding input for number of tabs to remember",
+      "message": "최대 기억:"
+   },
+   "options_option_rememberTabs_postLabel": {
+      "description": "Label following input for number of tabs to remember",
+      "message": "닫은 탭."
+   },
+   "options_option_rememberTabs_tabs": {
+      "description": "Input title for number of tabs to remember",
+      "message": "0보다 크거나 같은 숫자여야 합니다."
+   },
+   "options_option_saveSortOrder": {
+      "description": "Label for toggling saving sort order in Corral and Lock Tabs",
+      "message": "정렬 기준 유지"
+   },
+   "options_option_showBadgeCount_label": {
+      "description": "Label for checkbox to show a badge on the extension icon with number of tabs closed",
+      "message": "툴바 버튼에 닫은 탭 개수를 표시"
+   },
+   "options_option_theme_dark": {
+      "description": "'Dark' choice for color theme. Dark background, light font",
+      "message": "어둡게"
+   },
+   "options_option_theme_label": {
+      "description": "Label preceding button group for choosing the color theme",
+      "message": "테마"
+   },
+   "options_option_theme_light": {
+      "description": "'Light' choice for color theme. Light background, dark font",
+      "message": "밝게"
+   },
+   "options_option_theme_system": {
+      "description": "'System' choice for color theme. Uses the preferred color theme of user's OS.",
+      "message": "시스템"
+   },
+   "options_option_timeInactive_label": {
+      "description": "Label preceeding inputs for setting inactive time before tabs are closed",
+      "message": "다음시간 후 탭 비활성화:"
+   },
+   "options_option_timeInactive_label_minutes": {
+      "description": "Label following inputs for setting inactive time before tabs are closed",
+      "message": "분"
+   },
+   "options_option_timeInactive_label_seconds": {
+      "description": "Label following inputs for setting inactive time before tabs are closed",
+      "message": "초"
+   },
+   "options_option_timeInactive_minutes": {
+      "description": "Input title for number of minutes before closing tabs",
+      "message": "0보다 크고 7200보다 작은 숫자여야 합니다."
+   },
+   "options_option_timeInactive_seconds": {
+      "description": "Input title for number of seconds before closing tabs",
+      "message": "0보다 크고 60보다 작은 숫자여야 합니다."
+   },
+   "options_saving": {
+      "description": "Message displayed when options are being saved",
+      "message": "저장중..."
+   },
+   "options_section_autoLock": {
+      "description": "Header for the auto-lock section of the options tab",
+      "message": "자동잠금"
+   },
+   "options_section_importExport": {
+      "description": "Header for the import/export feature section of the options tab",
+      "message": "가져오기 / 내보내기"
+   },
+   "settings_setminTabs_error": {
+      "description": "Error shown when invalid min tabs setting is supplied.",
+      "message": "최소 탭은 0보다 크거나 같은 숫자여야 합니다."
+   },
+   "settings_setminutesInactive_error": {
+      "description": "Error shown when invalid minutes inactive setting is supplied.",
+      "message": "분 비활성화는 0보다 크거나 같아야 합니다."
+   },
+   "settings_setsecondsInactive_error": {
+      "description": "Error shown when invalid seconds inactive setting is supplied.",
+      "message": "초 비활성화는 0보다 크거나 같고 60보다 작아야합니다."
+   },
+   "tabCorral_name": {
+      "description": "Name of the 'Tab Corral' feature, the list of tabs closed by the extension",
+      "message": "탭 보관"
+   },
+   "tabLock_lockLabel": {
+      "description": "Explanation of the lock checkbox's functionality",
+      "message": "탭을 체크하면 탭이 잠깁니다 (자동 닫힘을 방지)."
+   },
+   "tabLock_lockedReason_audible": {
+      "description": "Label for a tab that is locked because it's audible",
+      "message": "소리가 재생되는 탭은 닫지 않습니다"
+   },
+   "tabLock_lockedReason_group": {
+      "description": "Label for a tab that is locked because it's in a group",
+      "message": "그룹"
+   },
+   "tabLock_lockedReason_locked": {
+      "description": "Label for tab that is locked because the user locked it",
+      "message": "잠금"
+   },
+   "tabLock_lockedReason_matches": {
+      "description": "Label for a tab that is locked because it matches the whitelist",
+      "message": "'$pattern$' 패턴",
+      "placeholders": {
+         "pattern": {
+            "content": "$1",
+            "example": "chrome://"
+         }
+      }
+   },
+   "tabLock_lockedReason_paused": {
+      "description": "Label for a tab when the extension is paused",
+      "message": "정지"
+   },
+   "tabLock_lockedReason_pinned": {
+      "description": "Label for a tab that is locked because it's pinned",
+      "message": "고정"
+   },
+   "tabLock_name": {
+      "description": "Name of the 'Tab Lock' feature, the list of open tabs with UI to lock them",
+      "message": "탭 잠금"
+   },
+   "tabLock_remainingTimeLabel": {
+      "description": "Explanation of time remaining before tab is closed",
+      "message": "닫는 중..."
+   },
+   "tabLock_sort_tabOrder": {
+      "description": "Description for sorting tabs by how they appear in browser",
+      "message": "탭 순서"
+   },
+   "tabLock_sort_tabOrder_desc": {
+      "description": "Description for sorting tabs by how they appear in browser, in reverse",
+      "message": "탭 순서 (역순)"
+   },
+   "tabLock_sort_tabOrder_desc_short": {
+      "description": "Short version of tabLock_sort_tabOrder_desc",
+      "message": "탭 순서 (역순)"
+   },
+   "tabLock_sort_tabOrder_short": {
+      "description": "Short version of tabLock_sort_tabOrder",
+      "message": "탭 순서"
+   },
+   "tabLock_sort_timeUntilClose": {
+      "description": "Description for sorting tabs by how much time until TW closes them",
+      "message": "잔여 시간"
+   },
+   "tabLock_sort_timeUntilClose_desc": {
+      "description": "Description for sorting tabs by how much time until TW closes them, in reverse",
+      "message": "잔여 시간 (많은 순)"
+   },
+   "tabLock_sort_timeUntilClose_desc_short": {
+      "description": "Short version of tabLock_sort_timeUntilClose_desc",
+      "message": "잔여 시간 (많은 순)"
+   },
+   "tabLock_sort_timeUntilClose_short": {
+      "description": "Short version of tabLock_sort_timeUntilClose",
+      "message": "잔여 시간"
+   }
+}

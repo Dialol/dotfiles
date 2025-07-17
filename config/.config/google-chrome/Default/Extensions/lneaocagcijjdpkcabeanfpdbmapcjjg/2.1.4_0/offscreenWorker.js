@@ -1,0 +1,1 @@
+(function(){"use strict";onmessage=e=>{console.log(`worker created by offscreen document received: ${e.data}`),fetch(e.data).then(()=>{console.log("url fetched successfully")}).catch(c=>{console.log(`during fetching: ${e.data}, error occurred: ${c}`)})}})();
