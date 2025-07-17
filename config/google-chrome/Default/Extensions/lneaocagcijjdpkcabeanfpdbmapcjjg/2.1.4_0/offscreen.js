@@ -1,1 +1,0 @@
-(function(){"use strict";const r=new Worker("offscreenWorker.js"),t=e=>{if(e.target!=="offscreen")return!1;switch(e.type){case"triggerAuth":r.postMessage(e.data);break;default:return console.warn(`Unexpected message type received: '${e.type}'.`),!1}};chrome.runtime.onMessage.addListener(t)})();
