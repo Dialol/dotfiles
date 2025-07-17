@@ -15,4 +15,5 @@ config/Code/Service Worker/
 *.lock
 *.bak
 google-chrome/
-
+Cursor/
+go/

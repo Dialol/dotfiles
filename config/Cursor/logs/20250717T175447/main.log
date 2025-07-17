@@ -1,4 +1,0 @@
-2025-07-17 17:54:47.670 [info] updateURL https://api2.cursor.sh/updates/api/update/linux-x64/cursor/1.2.2/f01b624413754d137d594ce508af04865d73f1cbb7704a7da5160e3501d09bc1/stable
-2025-07-17 17:54:47.670 [info] update#setState idle
-2025-07-17 17:55:17.670 [info] update#setState checking for updates
-2025-07-17 17:55:17.937 [info] update#setState ready
