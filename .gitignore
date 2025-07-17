@@ -5,3 +5,12 @@ config/Code/Cache/
 config/Code/CachedData/
 config/Code/Crashpad/
 config/Code/Service Worker/
+*/cache/
+*/Cache/
+*/CachedData/
+*/logs/
+*/log/
+*/tmp/
+*/temp/
+*.lock
+*.bak
