@@ -1,0 +1,7 @@
+config/nvim/undo/
+config/nvim/backup/
+config/nvim/swap/
+config/Code/Cache/
+config/Code/CachedData/
+config/Code/Crashpad/
+config/Code/Service Worker/
