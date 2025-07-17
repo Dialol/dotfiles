@@ -14,3 +14,5 @@ config/Code/Service Worker/
 */temp/
 *.lock
 *.bak
+google-chrome/
+
