@@ -1,34 +1,41 @@
 {
- // load modules
- "include": "~/.config/waybar/modules.json",
- 
- // general settings
- "position": "top",
- "margin-top": 8,
- "margin-bottom": 0,
- "layer": "top",
- "margin-left": 8,
- "margin-right": 8,    
- "spacing": 10,
- "fixed-center": true,
- "exclusive": true,
- 
- // modules
- "modules-left": [
-     "hyprland/workspaces",
-            "wlr/taskbar"
-        ],
-        
-        "modules-center": [
-            "clock"
-        ],
-        
-       "modules-right": [
-           "group/hardware",
-           "pulseaudio",
-           "bluetooth",
-           "network",
-           "battery", 
-           "custom/exit"
-        ]
+    "layer": "top",
+    "position": "top",
+    "height": 30,
+    "spacing": 4,
+    "modules-left": ["hyprland/workspaces"],
+    "modules-center": ["hyprland/window"],
+    "modules-right": ["pulseaudio"],
+    
+    "hyprland/workspaces": {
+        "disable-scroll": true,
+        "all-outputs": true,
+        "format": "{name}",
+        "format-icons": {
+            "1": "1",
+            "2": "2", 
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6",
+            "7": "7",
+            "8": "8",
+            "9": "9",
+            "10": "10"
+        }
+    },
+    
+    "hyprland/window": {
+        "format": "{}",
+        "max-length": 50
+    },
+    
+    "pulseaudio": {
+        "format": "{icon} {volume}%",
+        "format-muted": "🔇",
+        "on-click": "pavucontrol",
+        "on-click-right": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
+        "on-scroll-up": "pactl set-sink-volume @DEFAULT_SINK@ +5%",
+        "on-scroll-down": "pactl set-sink-volume @DEFAULT_SINK@ -5%"
+    }
 }

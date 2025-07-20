@@ -1,28 +1,30 @@
-:root {
-  /* Main colors */
-  --foreground: #e0c5e8;
-  --background: #7d7580;
-  --selection_foreground: #ffffff;
-  --selection_background: #e1bfe1;
-  --cursor: #eae6eb;
+  /* Универсальные цвета для всех приложений */
 
-  /* Standard colors */
-  --color0:  #fbeaff;  /* black   */
-  --color1:  #e1bfe1;  /* red     */
-  --color2:  #c7a0c7;  /* green   */
-  --color3:  #f7c6e0;  /* yellow  */
-  --color4:  #b97ebf;  /* blue    */
-  --color5:  #e1bfe1;  /* magenta */
-  --color6:  #c7a0c7;  /* cyan    */
-  --color7:  #6c4a6b;  /* white   */
+/* Основные цвета */
+.foreground { color: #e0c5e8; }
+.background { background-color: #7d7580; }
+.selection_foreground { color: #ffffff; }
+.selection_background { background-color: #e1bfe1; }
+.cursor { color: #eae6eb; }
 
-  /* Bright colors */
-  --color8:  #e1bfe1;  /* bright black   */
-  --color9:  #f7c6e0;  /* bright red     */
-  --color10: #fbeaff;  /* bright green   */
-  --color11: #fbeaff;  /* bright yellow  */
-  --color12: #b97ebf;  /* bright blue    */
-  --color13: #e1bfe1;  /* bright magenta */
-  --color14: #c7a0c7;  /* bright cyan    */
-  --color15: #6c4a6b;  /* bright white   */
-}
+/* Стандартные цвета */
+.color0 { color: #fbeaff; }  /* black   */
+.color1 { color: #e1bfe1; }  /* red     */
+.color2 { color: #c7a0c7; }  /* green   */
+.color3 { color: #f7c6e0; }  /* yellow  */
+.color4 { color: #b97ebf; }  /* blue    */
+.color5 { color: #e1bfe1; }  /* magenta */
+.color6 { color: #c7a0c7; }  /* cyan    */
+.color7 { color: #6c4a6b; }  /* white   */
+
+/* Яркие цвета */
+.color8 { color: #e1bfe1; }   /* bright black   */
+.color9 { color: #f7c6e0; }   /* bright red     */
+.color10 { color: #fbeaff; }  /* bright green   */
+.color11 { color: #fbeaff; }  /* bright yellow  */
+.color12 { color: #b97ebf; }  /* bright blue    */
+.color13 { color: #e1bfe1; }  /* bright magenta */
+.color14 { color: #c7a0c7; }  /* bright cyan    */
+.color15 { color: #6c4a6b; }  /* bright white   */
+
+
