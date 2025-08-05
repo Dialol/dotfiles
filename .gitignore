@@ -18,6 +18,15 @@ google-chrome/
 Cursor/
 go/
 
+config/systemd/
+config/xfce4/
+config/dconf/
+config/libreoffice/
+config/pulse/
+config/pavucontrol.ini
+config/QtProject.conf
+config/mimeapps.list
+
 config/chromium/
 config/google-chrome/
 config/obsidian/
