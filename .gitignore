@@ -17,3 +17,89 @@ config/Code/Service Worker/
 google-chrome/
 Cursor/
 go/
+
+config/chromium/
+config/google-chrome/
+config/obsidian/
+
+config/*/Cache/
+config/*/cache/
+config/*/GPUCache/
+config/*/DawnGraphiteCache/
+config/*/DawnWebGPUCache/
+config/*/GrShaderCache/
+config/*/ShaderCache/
+config/*/Code Cache/
+config/*/Crash Reports/
+config/*/Crashpad/
+config/*/Local Storage/
+config/*/Session Storage/
+config/*/WebStorage/
+config/*/IndexedDB/
+config/*/blob_storage/
+config/*/GPUCache/
+config/*/Extension*/
+config/*/Autofill*/
+config/*/BrowserMetrics/
+config/*/CertificateRevocation/
+config/*/CookieReadinessList/
+config/*/Crowd Deny/
+config/*/FileTypePolicies/
+config/*/First Run/
+config/*/Last Version/
+config/*/MEIPreload/
+config/*/NativeMessagingHosts/
+config/*/OnDeviceHeadSuggestModel/
+config/*/OpenCookieDatabase/
+config/*/OptimizationHints/
+config/*/OriginTrials/
+config/*/PKIMetadata/
+config/*/PrivacySandboxAttestationsPreloaded/
+config/*/ProbabilisticRevealTokenRegistry/
+config/*/Safe Browsing/
+config/*/SafetyTips/
+config/*/segmentation_platform/
+config/*/SSLErrorAssistant/
+config/*/Subresource Filter/
+config/*/TpcdMetadata/
+config/*/TrustTokenKeyCommitments/
+config/*/WidevineCdm/
+config/*/ZxcvbnData/
+
+*.db
+*.db-journal
+*.log
+*.old
+*.tmp
+*.temp
+*.bak
+*.lock
+*.LOCK
+*.LOG
+
+config/*/Default/
+config/*/Sessions/
+config/*/Shared Dictionary/
+config/*/Sync Data/
+config/*/WebStorage/
+
+config/*/Crashpad/
+config/*/Dictionaries/
+config/*/extensions_crx_cache/
+config/*/component_crx_cache/
+config/*/AmountExtractionHeuristicRegexes/
+config/*/AutofillStates/
+config/*/BudgetDatabase/
+config/*/chrome_cart_db/
+config/*/ClientCertificates/
+config/*/commerce_subscription_db/
+config/*/discounts_db/
+config/*/Download Service/
+config/*/Feature Engagement Tracker/
+config/*/GCM Store/
+config/*/optimization_guide_hint_cache_store/
+config/*/parcel_tracking_db/
+config/*/PersistentOriginTrials/
+config/*/Segmentation Platform/
+config/*/shared_proto_db/
+config/*/Site Characteristics Database/

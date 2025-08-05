@@ -1,0 +1,88 @@
+### Settings from original zathurarc ###
+set adjust-open "best-fit"
+set pages-per-row 1
+set scroll-page-aware "true"
+set smooth-scroll "true"
+set scroll-full-overlap 0.01
+set scroll-step 100
+set zoom-min 10
+set guioptions ""
+set font "inconsolata 15"
+set render-loading "false"
+set scroll-step 50
+unmap f
+map f toggle_fullscreen
+map [fullscreen] f toggle_fullscreen
+
+### zathura-pywal ###
+# Allow recolor
+set recolor 'true'
+
+# Don't allow original hue when recoloring
+set recolor-keephue 'false'
+
+# Don't keep original image colors while recoloring
+set recolor-reverse-video 'false'
+
+# Command line completion entries
+set completion-fg '#c5c2c6'
+set completion-bg '#180c1e'
+
+# Command line completion group elements
+set completion-group-fg '#774333'
+set completion-group-bg '#180c1e'
+
+# Current command line completion element
+set completion-highlight-fg '#180c1e'
+set completion-highlight-bg '#c5c2c6'
+
+# Default foreground/background color
+set default-bg rgba(24,12,30,0.5)
+
+# Input bar
+set inputbar-fg '#c5c2c6'
+set inputbar-bg '#180c1e'
+
+# Notification
+set notification-fg '#c5c2c6'
+set notification-bg '#180c1e'
+
+# Error notification
+set notification-error-fg '#c5c2c6'
+set notification-error-bg '#6F3C2E'
+
+# Warning notification
+set notification-warning-fg '#c5c2c6'
+set notification-warning-bg '#6F3C2E'
+
+# Tab - TODO
+# set tabbar-fg
+# set tabbar-bg
+
+# Focused tab - TODO
+# set tabbar-focus-fg
+# set tabbar-focus-bg
+
+# Status bar
+set statusbar-fg '#c5c2c6'
+set statusbar-bg '#180c1e'
+
+# Highlighting parts of the document (e.g. show search results)
+set highlight-color '#774333'
+set highlight-active-color '#774333'
+
+# Represent light/dark colors in recoloring mode
+set recolor-lightcolor rgba(0,0,0,0)
+set recolor-darkcolor '#c5c2c6'
+
+# 'Loading...' text
+set render-loading-fg '#c5c2c6'
+set render-loading-bg '#180c1e'
+
+# Index mode
+set index-fg '#c5c2c6'
+set index-bg '#180c1e'
+
+# Selected element in index mode
+set index-active-fg '#180c1e'
+set index-active-bg '#c5c2c6'

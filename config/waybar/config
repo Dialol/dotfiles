@@ -2,10 +2,12 @@
     "layer": "top",
     "position": "top",
     "height": 30,
+
+    "margin": "0px 0px 0px 0px",
     "spacing": 4,
-    "modules-left": ["hyprland/workspaces"],
-    "modules-center": ["hyprland/window"],
-    "modules-right": ["pulseaudio"],
+    "modules-left": ["hyprland/workspaces", "wlr/taskbar"],
+    "modules-center": [],
+    "modules-right": ["clock", "network", "pulseaudio", "custom/power"],
     
     "hyprland/workspaces": {
         "disable-scroll": true,
@@ -24,10 +26,23 @@
             "10": "10"
         }
     },
+
+    "wlr/taskbar": {
+        "format": "{icon}",
+        "icon-size": 18,
+        "on-click": "activate",
+        "on-click-right": "close"
+    },
     
     "hyprland/window": {
         "format": "{}",
         "max-length": 50
+    },
+
+    "clock": {
+        "format": "{:%d.%m %H:%M}",
+        "tooltip-format": "{:%A, %d %B %Y %H:%M:%S}",
+        "interval": 1
     },
     
     "pulseaudio": {
@@ -37,5 +52,22 @@
         "on-click-right": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
         "on-scroll-up": "pactl set-sink-volume @DEFAULT_SINK@ +5%",
         "on-scroll-down": "pactl set-sink-volume @DEFAULT_SINK@ -5%"
+    },
+
+    "network": {
+        "interface": "wlo1",
+        "format": "{ifname}",
+        "format-wifi": "  ({signalStrength}%)",
+        "format-ethernet": " {ifname}",
+        "format-disconnected": "⚠ No Wi-Fi",
+        "tooltip": true,
+        "tooltip-format": "{essid}\nSignal: {signalStrength}%",
+        "on-click": "nm-connection-editor",
+        "on-click-right": "nmcli dev wifi rescan"
+    },
+    "custom/power": {
+        "format": "⏻", 
+        "tooltip": "Power Menu",
+        "on-click": "~/.config/waybar/power-menu.sh",
     }
 }
