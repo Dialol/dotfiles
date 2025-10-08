@@ -1,11 +1,12 @@
 ### Settings from original zathurarc ###
-set adjust-open "best-fit"
-set pages-per-row 1
-set scroll-page-aware "true"
-set smooth-scroll "true"
-set scroll-full-overlap 0.01
+set adjust-open "width"
+set pages-per-row 2
+set scroll-page-aware "false"
+set smooth-scroll "false"
+set scroll-full-overlap 0.0
 set scroll-step 100
 set zoom-min 10
+set zoom-max 1000
 set guioptions ""
 set font "inconsolata 15"
 set render-loading "false"
@@ -13,6 +14,7 @@ set scroll-step 50
 unmap f
 map f toggle_fullscreen
 map [fullscreen] f toggle_fullscreen
+set selection-clipboard clipboard
 
 ### zathura-pywal ###
 # Allow recolor
@@ -47,22 +49,6 @@ set inputbar-bg '#180c1e'
 set notification-fg '#c5c2c6'
 set notification-bg '#180c1e'
 
-# Error notification
-set notification-error-fg '#c5c2c6'
-set notification-error-bg '#6F3C2E'
-
-# Warning notification
-set notification-warning-fg '#c5c2c6'
-set notification-warning-bg '#6F3C2E'
-
-# Tab - TODO
-# set tabbar-fg
-# set tabbar-bg
-
-# Focused tab - TODO
-# set tabbar-focus-fg
-# set tabbar-focus-bg
-
 # Status bar
 set statusbar-fg '#c5c2c6'
 set statusbar-bg '#180c1e'
@@ -82,7 +68,25 @@ set render-loading-bg '#180c1e'
 # Index mode
 set index-fg '#c5c2c6'
 set index-bg '#180c1e'
+set first-page-column 2
 
 # Selected element in index mode
 set index-active-fg '#180c1e'
 set index-active-bg '#c5c2c6'
+
+# Key mappings
+map o toggle_index
+map <Up> scroll up
+map <Down> scroll down
+map <Left> navigate previous
+map <Right> navigate next
+map + zoom in
+map - zoom out
+map = zoom in
+map 0 zoom 100
+
+# Selection colors
+set selection-foreground-color "#FFFFFF"
+set selection-background-color "#FF0000"
+
+

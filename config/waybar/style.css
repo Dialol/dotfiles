@@ -38,8 +38,8 @@ window#waybar.foreground {
 }
 
 #pulseaudio {
-    padding: 0 10px;
-    margin: 0 4px;
+    padding: 0 7px;
+    margin: 0;
     color: #e0c5e8;
     background-color: transparent;
 }
@@ -49,6 +49,52 @@ window#waybar.foreground {
 }
 
 #pulseaudio:hover {
+    background-color: rgba(224, 197, 232, 0.1);
+    border-radius: 6px;
+}
+#clock {
+    padding: 0 10px;
+    margin: 0;
+    color: #e0c5e8;
+    background-color: transparent;
+}
+
+#clock:hover {
+    background-color: rgba(224, 197, 232, 0.1);
+    border-radius: 6px;
+}
+#network {
+    padding: 0 8px;
+    margin: 0;
+    color: #e0c5e8;
+    background-color: transparent;
+}
+
+#network:hover {
+    background-color: rgba(224, 197, 232, 0.1);
+    border-radius: 6px;
+}
+
+#custom-power {
+    margin-right: 18px;
+    padding: 0 20px;
+    color: #e0c5e8;
+    background-color: transparent;
+}
+
+#custom-power:hover {
+    background-color: rgba(224, 197, 232, 0.1);
+    border-radius: 6px;
+}
+
+#bluetooth {
+    padding: 0 8px;
+    margin: 0 4px;
+    color: #e0c5e8;
+    background-color: transparent;
+}
+
+#bluetooth:hover {
     background-color: rgba(224, 197, 232, 0.1);
     border-radius: 6px;
 }

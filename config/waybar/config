@@ -7,7 +7,7 @@
     "spacing": 4,
     "modules-left": ["hyprland/workspaces", "wlr/taskbar"],
     "modules-center": [],
-    "modules-right": ["clock", "network", "pulseaudio", "custom/power"],
+    "modules-right": ["clock", "network", "bluetooth", "pulseaudio", "custom/power"],
     
     "hyprland/workspaces": {
         "disable-scroll": true,
@@ -68,6 +68,15 @@
     "custom/power": {
         "format": "⏻", 
         "tooltip": "Power Menu",
-        "on-click": "~/.config/waybar/power-menu.sh",
-    }
+        "on-click": " ~/.config/rofi/powermenu/type-2/powermenu.sh",
+    },
+    "bluetooth": {
+        "format": "BT",
+        "format-disabled": "bt",
+        "format-off": "bt/",
+        "format-connected": "BT+",
+        "tooltip-format": "Bluetooth: {status}",
+        "on-click": "bluedevil-wizard",
+        "on-click-right": "~/.config/waybar/bluetooth-toggle.sh"
+    },
 }
